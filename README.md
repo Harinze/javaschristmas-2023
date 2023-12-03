@@ -11,15 +11,15 @@ Technologies: Expect challenges in HTML, CSS, and JavaScript, providing a well-r
 
 Prizes: Exciting prizes await the winners, so give your best effort each day to stand a chance to win.
 
-How to Participate
-Enrollment: Enroll in the challenge by joining our community.
+## How to Participate
+Enrollment: Enroll in the challenge by joining Scrimba.
 
-Daily Challenges: Look out for daily coding challenges posted on our platform.
+Daily Challenges: Look out for daily coding challenges posted on Scrimba.
 
 Submission: Submit your solutions daily within the provided timeframe.
 
 Evaluation: Solutions will be evaluated based on correctness, efficiency, and adherence to coding standards.
 
-Daily Schedule
+### Daily Schedule
 Start Date: 01 - 12 - 2023
 End Date: 23 - 12 - 2023
