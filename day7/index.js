@@ -23,7 +23,7 @@ function renderWishlist() {
         wishlistItem.innerHTML = `
             <h3>${item.name}</h3>
             <p>${item.description}</p>
-            <a href="${item.link}" target="_blank">Buy Now</a>
+            <a href="${item.link}" target="_blank">Click for details</a>
             <button class="remove-item" data-name="${item.name}">Remove</button>
         `;
         wishlistItem.classList.add("wishlist-item");
