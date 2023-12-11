@@ -1,0 +1,53 @@
+:root {
+    --white: #fff;
+    --red: #FF0002;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #212F3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title {
+    color: #D0D3D4;
+}
+
+.flag {
+    background-color: var(--red);
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cross {
+    position: absolute;
+    background-color: var(--white);
+    display: block;
+}
+
+.cross1 {
+    margin-top: 12.5px;
+    height: 75px;
+    width: 20px;
+    margin-left: 40px;
+}
+
+.cross2 {
+    width: 75px;
+    height: 20px;
+    margin-left: 12.5px;
+    margin-top: 40px;
+}
