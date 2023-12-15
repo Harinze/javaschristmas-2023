@@ -1,0 +1,51 @@
+:root {
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.rings {
+    position: relative;
+}
+
+.ring {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ring-1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--black);
+}
+
+.ring-2 {
+    width: 80px;
+    height: 80px;
+    background-color: var(--blue);
+    margin: 10px;
+}
+
+.ring-3 {
+    width: 60px;
+    height: 60px;
+    background-color: var(--red);
+    margin: 10px;
+}
+
+.bullseye {
+    width: 40px;
+    height: 40px;
+    background-color: var(--yellow);
+    margin: 10px;
+}
