@@ -1,0 +1,67 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    position: relative;
+}
+
+.word-rotation {
+    background-color: var(--bg-word);
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.word-rotation:before {
+    content: attr(data-words);
+    animation: rotateWords 12s linear infinite;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes rotateWords {
+
+    0%,
+    20% {
+        content: "Coding";
+    }
+
+    25%,
+    45% {
+        content: "Football";
+    }
+
+    50%,
+    70% {
+        content: "Music";
+    }
+
+    75%,
+    100% {
+        content: "Snooker";
+    }
+}
