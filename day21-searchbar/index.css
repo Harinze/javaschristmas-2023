@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --search-border: #bbb;
+    --search-focus-border: #3a71ca;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.search-bar {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    border: 2px solid var(--search-border);
+    transition: width 0.3s ease-in-out;
+    padding: 10px;
+    font-size: 25px;
+    outline: none;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.search-bar:focus {
+    width: 100%;
+    border-color: var(--search-focus-border);
+}
+
+.search-bar:focus::placeholder {
+    color: transparent;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
